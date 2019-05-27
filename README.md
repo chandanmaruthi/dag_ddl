@@ -1,4 +1,4 @@
-# dag test
+# Directed Acyclic Graph test
 
 Pre_requisite:
 create an python 3 environment
@@ -27,8 +27,8 @@ Enter Input Values
 ```
 
 # Note on Missing Items
-The following improvements can be done to the code and has not been done in the interest of time
+The following improvements can be done to the code [ not done in the interest of time ]
 - Unit Tests
 - Read from File
-- Rremove/reduce cyclomatic complexity using better data structures
+- Remove/reduce cyclomatic complexity using better data structures
 - Storage

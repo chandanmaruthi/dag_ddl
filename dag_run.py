@@ -5,7 +5,7 @@ all_paths = []
 def find_all_paths(graph, path):
     """
     Trivial function to traverse a DAG and get all paths,
-    once a path has reached its end, its logged in the global variable all_paths
+    once a path has reached its end, it is logged in the global variable all_paths
     :param graph:
     :param path:
     :return:
@@ -42,7 +42,7 @@ def get_all_paths(user_dag):
     child_nodes = list(set(all_values))
 
     for node in user_dag:
-        # test if node us a root node, else skip
+        # test if node is a root node, else skip
         if node not in child_nodes:
             find_all_paths(user_dag, [node])
 
@@ -58,11 +58,11 @@ def print_path(path):
 
 def build_dag():
     """
-    Builds a Directed Acylic Graph based on user input
+    Builds a Directed Acyclic Graph based on user input
     Args:
         STDIN
         Expects STDIN first input to be number of nodes in graph 1- N, where N is number of nodes
-        each line in the next set of STDINs will be recorded as start and end nodes in graph
+        Each line in the next set of STDINs will be recorded as start and end nodes in graph : a,b
         Example  input:
         7
         0,1
